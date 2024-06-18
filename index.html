@@ -1,58 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Perfil - Thiago Faccipieri.</title>
+    <title>Meu Perfil - Thiago Faccipieri</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
   </head>
   <body>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="contato.html">Contato  </a>
-      </li>
-    </ul>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="contato.html">Contato </a>
+        </li>
+      </ul>
+    </nav>
 
-    <h1>Sobre o Thiago</h1>
+    <main>
+      <section class="sobre">
+        <h1>Sobre o <span>Thiago</span></h1>
 
-    <div>
-      <div>
-        <img
-          src="./assets/img/perfil.png"
-          alt="Foto de perfil do Thiago"
-        />
-      </div>
+        <article class="conteudo">
+          <div>
+            <img src="./assets/img/perfil.png" alt="Foto de perfil do Thiago" />
+          </div>
 
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nihil
-          cupiditate perferendis, doloribus quidem accusamus eligendi commodi
-          repudiandae natus provident atque velit ea laudantium labore
-          reiciendis ipsa doloremque, amet debitis?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nihil
-          cupiditate perferendis, doloribus quidem accusamus eligendi commodi
-          repudiandae natus provident atque velit ea laudantium labore
-          reiciendis ipsa doloremque, amet debitis?
-        </p>
-      </div>
-    </div>
+          <div class="paragrafos">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus,
+              nihil cupiditate perferendis, doloribus quidem accusamus eligendi
+              commodi repudiandae natus provident atque velit ea laudantium
+              labore reiciendis ipsa doloremque, amet debitis?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus,
+              nihil cupiditate perferendis, doloribus quidem accusamus eligendi
+              commodi repudiandae natus provident atque velit ea laudantium
+              labore reiciendis ipsa doloremque, amet debitis?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Praesentium in hic dolorem saepe deserunt mollitia vitae beatae
+              alias nostrum asperiores ut, rem ad sit dolorum libero quo magni
+              soluta voluptates!
+            </p>
+          </div>
+        </article>
+      </section>
 
-    <h2>Meu video predileto:</h2>
-    <div>
-      <iframe
-        width="1897"
-        height="755"
-        src="https://www.youtube.com/embed/ipDQVYOMhNg"
-        title="Taylor Swift - Fortnight (Pop Punk Cover by John Aquino)"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </div>
+      <section class="videoSection">
+        <h2>Meu video predileto</h2>
+        <div>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/ipDQVYOMhNg"
+            title="Taylor Swift - Fortnight (Pop Punk Cover by John Aquino)"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
