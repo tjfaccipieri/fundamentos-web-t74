@@ -20,7 +20,11 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+html {
+  font-size: 16px;
 }
 
 /* definindo a largura maxima do nosso body, para 100viewWidth, que é a largura máxima da tela do dispositivo usado, independente do dispositivo */
@@ -185,4 +189,52 @@ button:hover {
   color: var(--soft-gray);
   cursor: pointer;
   transition: .5s ease-in-out;
+}
+
+/* @Media serve para entender a tela do dispositivo, e criar um "if" relacionado a largura maxima da minha tela, no exemplo, 600px
+  qualquer tela abaixo dessa largura, as regras abaixo do media são aplicadas, sobrepondo ou adicionando estilização nas classes/tags que eu chamar dentro dele.
+
+  !Importante: O @media preferencialmente deve vir sempre no final do arquivo CSS, para não ter mais nenhuma regra sobrepondo ele
+*/
+@media screen and (max-width: 600px) {
+  .conteudo {
+    min-width: 400px;
+    flex-direction: column;
+    max-width: 600px;
+  }
+
+  .paragrafos {
+    font-size: 14px;
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* pagina de teste de porcentagem e viewports */
+.divisao1, .divisao2, .divisao3 {
+  height: 50vh;
+}
+
+.divisao1 {
+  background-color: #2b2d42;
+  width: 80%;
+}
+
+.divisao2 {
+  background-color: #d90429;
+  width: 80%;
+}
+
+.divisao3 {
+  background-color: #8d99ae;
+  width: 80%;
 }
