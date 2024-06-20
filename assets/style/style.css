@@ -202,7 +202,7 @@ button:hover {
     flex-direction: column;
     max-width: 600px;
   }
-
+  
   .paragrafos {
     font-size: 14px;
     width: 80%;
@@ -238,3 +238,6 @@ button:hover {
   background-color: #8d99ae;
   width: 80%;
 }
+
+
+
