@@ -191,6 +191,11 @@ button:hover {
   transition: .5s ease-in-out;
 }
 
+#mapa {
+  width: 400px;
+  aspect-ratio: 16/9;
+}
+
 /* @Media serve para entender a tela do dispositivo, e criar um "if" relacionado a largura maxima da minha tela, no exemplo, 600px
   qualquer tela abaixo dessa largura, as regras abaixo do media são aplicadas, sobrepondo ou adicionando estilização nas classes/tags que eu chamar dentro dele.
 
